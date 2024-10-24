@@ -32,11 +32,6 @@ path_to_workspace = "C:/Users/ryant/OneDrive/Desktop/Thesis/NAO_Strombom_Shepher
 - Sheeps.py
 """
 
-# Access Environment_Strombom to initialise class variables
-# TODO: Change NaoMain and BoltMain to soley use constants passed 
-sys.path.append(f"{path_to_workspace}/ShepherdingFiles")
-
-
 N_SHEEP = 3  # no. agents in the shepherding sim
 N_EPISODE = 27  # how many trials you want to run
 MAX_STEPS = 200000  # steps desired per trial
